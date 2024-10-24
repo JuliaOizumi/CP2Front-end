@@ -1,0 +1,50 @@
+{
+  "name": "FIAP 1Semestre",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [
+    5500
+  ],
+  "initializeCommand": "ls",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "Blackboxapp.blackbox",
+        "naumovs.color-highlight",
+        "dsznajder.es7-react-js-snippets",
+        "vinliao.fast-arrow",
+        "GitHub.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "VisualStudioExptTeam.vscodeintellicode",
+        "VisualStudioExptTeam.intellicode-api-usage-examples",
+        "ms-python.isort",
+        "ms-vscode.vscode-typescript-next",
+        "angelorafael.jsx-html-tags",
+        "ritwickdey.LiveServer",
+        "ms-vsliveshare.vsliveshare",
+        "marp-team.marp-vscode",
+        "PKief.material-icon-theme",
+        "analytic-signal.preview-pdf",
+        "MS-CEINTL.vscode-language-pack-pt-BR",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "sibiraj-s.vscode-scss-formatter",
+        "bradlc.vscode-tailwindcss",
+        "vscode-icons-team.vscode-icons",
+        "styled-components.vscode-styled-components"
+      ],
+      "settings": {
+        "git.repositoryScanMaxDepth": 5,
+        "extensions.autoCheckUpdates": false,
+        "extensions.autoUpdate": false,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": false,
+        "explorer.compactFolders": false,
+        "workbench.tree.indent": 20
+      }
+    }
+  }
+}
