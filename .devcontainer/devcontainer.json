@@ -6,7 +6,6 @@
   "forwardPorts": [
     5500
   ],
-  "initializeCommand": "ls",
   "customizations": {
     "vscode": {
       "extensions": [
