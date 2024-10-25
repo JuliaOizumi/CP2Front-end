@@ -1,10 +1,85 @@
+#main-content img {
+  width: 200%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+}
+
+#main-content h1 {
+  font-size: 48px;
+  color: #ff6b6b;
+  font-weight: 900;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;     
+}
+
+#btn-leia-mais {
+  margin: 20px auto 0;
+  padding: 15px 30px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  display: block;
+  max-width: 300px;
+}
+
+#about-content {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;   
+}
+
+#about-content h1 {
+  font-size: 40px;
+  color: #ff6b6b;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 270px;
+}
+
+#about-content p {
+  font-size: 22px;
+  margin-bottom: 500px;
+  max-width: 1200px; 
+  margin: 0 auto;   
+  text-align: center;
+}
+
+#nossos-valores h3 {
+  color: #ff6b6b;
+}
+
+#nossos-valores p {
+  color: white;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(0, 0, 0);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  color: #fff;
 }
+
+
+
+/*formulario ----------------------------------------------------------------*/
 
 .contact-form {
   background-color: #ffffff;
