@@ -3,7 +3,6 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(0, 0, 0);
-  padding: 0 8px;
 }
 
 img {
@@ -151,7 +150,8 @@ textarea {
 }
 
 a {
-  color: #00b7ff;
+  text-decoration: underline;
+  color: #111;
 }
 
 .form-group label {
@@ -167,6 +167,11 @@ a {
 }
 
 /* FORM GROUPS */
+.form-title {
+  color: #111;
+  font-weight: 800;
+}
+
 .field-group {
   display: flex;
   flex-direction: column;
@@ -192,10 +197,6 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    margin: auto 64px;
-  }
-
   .field-group {
     flex-direction: row;
   }
@@ -234,6 +235,23 @@ a {
   .nossos-valores-texto {
     max-width: 300px;
   }
+
+  .contact-form {
+    margin-bottom: 64px;
+  }
+}
+
+.black-text {
+  color: #111;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  text-decoration: none;
 }
 
 footer {
