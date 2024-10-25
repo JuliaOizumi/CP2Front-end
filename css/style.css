@@ -131,3 +131,39 @@ a {
   display: flex;
   justify-content: center;
 }
+
+footer {
+  background-color: #111;
+  padding: 3% 0;
+  text-align: center;
+  color: #fff;
+}
+
+.social-media {
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  padding: 3% 0;
+}
+
+.social-media a {
+  color: #fff;
+  margin: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.footer-links {
+  margin-top: 20px;
+}
+
+.footer-links a {
+  color: #999;
+  margin: 0 20px;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
