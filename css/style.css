@@ -1,5 +1,5 @@
 #main-content img {
-  width: 70%;
+  width: 200%;
   max-width: 800px;
   display: block;
   margin: 0 auto;
@@ -18,7 +18,7 @@
   font-size: 48px;
   color: #ff6b6b;
   font-weight: 900;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;  
   justify-content: center; 
@@ -33,10 +33,10 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
   border-radius: 5px;
   display: block;
-  max-width: 200px;
+  max-width: 300px;
 }
 
 #about-content {
@@ -52,18 +52,34 @@
   color: #ff6b6b;
   font-weight: 700;
   margin-bottom: 50px;
-  margin-top: 290px;
+  margin-top: 270px;
 }
 
 #about-content p {
-  font-size: 30px;
+  font-size: 22px;
+  margin-bottom: 500px;
+  max-width: 1200px; 
+  margin: 0 auto;   
+  text-align: center;
+}
+
+#nossos-valores h3 {
+  color: #ff6b6b;
+}
+
+#nossos-valores p {
+  color: white;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
   color: #fff;
 }
+
+
+
+/*formulario ----------------------------------------------------------------*/
 
 .contact-form {
   background-color: #ffffff;
