@@ -1,10 +1,11 @@
 # CP2Front-end
+
 Segundo Check Point de Front-End
 
-Participantes:
+## RM dos Integrantes do Grupo
 
-Julia Antonia Oizumi -
-João Gabriel Fuchs G - RM559863
-Bruno Eleuterio -
-Marcello Coelho -
-Felipe Anselmo -
+- Bruno Eleuterio: 560150
+- Felipe Anselmo: 560661
+- João Gabriel Fuchs G: 559863 
+- Julia Antonia Oizumi: 559303
+- Marcelo Coelho: 559778 
