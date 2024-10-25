@@ -3,9 +3,7 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
   "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
-  "forwardPorts": [
-    5500
-  ],
+  "forwardPorts": [5500],
   "customizations": {
     "vscode": {
       "extensions": [
@@ -33,7 +31,8 @@
         "sibiraj-s.vscode-scss-formatter",
         "bradlc.vscode-tailwindcss",
         "vscode-icons-team.vscode-icons",
-        "styled-components.vscode-styled-components"
+        "styled-components.vscode-styled-components",
+        "esbenp.prettier-vscode"
       ],
       "settings": {
         "git.repositoryScanMaxDepth": 5,
@@ -42,7 +41,17 @@
         "editor.formatOnSave": true,
         "editor.formatOnPaste": false,
         "explorer.compactFolders": false,
-        "workbench.tree.indent": 20
+        "workbench.tree.indent": 20,
+        "[html]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": ["source.organizeImports"]
+        },
+        "[css]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode",
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": ["source.organizeImports"]
+        }
       }
     }
   }

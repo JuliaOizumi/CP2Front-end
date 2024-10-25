@@ -1,34 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="GrupoCP2-1TDSPB">
-    <meta name="keywords" content="HTML, CSS">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cache-control" content="no-cache">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="GrupoCP2-1TDSPB" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Play Game</title>
-</head>
+  </head>
 
-<body>
-    <!-- Header sendo feito pelo responsável pelo cabecalho -->
+  <body>
     <div class = "conteudo">
-    <section id="main-content">
-        <h1>Vamos iniciar os Games</h1>
-        <img src="img/games1.jpg" alt="Imagem de games">
-        <br>
-        <button id="btn-leia-mais">Leia Mais</button>
+      <section id="main-content">
+          <h1>Vamos iniciar os Games</h1>
+          <img src="img/games1.jpg" alt="Imagem de games">
+          <br>
+          <button id="btn-leia-mais">Leia Mais</button>
+      </section>
+  
+      <section id="about-content">
+          <h1>O que nós fazemos diferente?</h1>  
+          <p>Por sermos experientes, confiáveis e focados em resultados, tivemos o privilégio de trabalhar com uma série de clientes fantásticos.</p>
+      </section>
+  
+      </div>
+    <section class="contact-form">
+      <h1>Quer saber mais?</h1>
+      <form>
+        <div class="field-set">
+          <div class="field-group">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Name" />
+            </div>
+            <div class="form-group">
+              <label for="email"
+                >Email address
+                <span class="label-required">(Required)</span></label
+              >
+              <input
+                type="email"
+                id="email"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <div class="phone-input">
+                <select class="ddi-picker" name="ddi" id="ddi">
+                  <option value="55">🇧🇷 &nbsp;&nbsp;&nbsp;+55</option>
+                  <option value="54">🇦🇷 &nbsp;&nbsp;&nbsp;+54</option>
+                  <option value="591">🇧🇴 &nbsp;&nbsp;&nbsp;+591</option>
+                  <option value="593">🇪🇨 &nbsp;&nbsp;&nbsp;+593</option>
+                  <option value="56">🇨🇱 &nbsp;&nbsp;&nbsp;+56</option>
+                  <option value="57">🇨🇴 &nbsp;&nbsp;&nbsp;+57</option>
+                  <option value="52">🇲🇽 &nbsp;&nbsp;&nbsp;+52</option>
+                  <option value="51">🇵🇪 &nbsp;&nbsp;&nbsp;+51</option>
+                  <option value="598">🇺🇾 &nbsp;&nbsp;&nbsp;+598</option>
+                  <option value="58">🇻🇪 &nbsp;&nbsp;&nbsp;+58</option>
+                </select>
+                <input type="tel" id="phone" placeholder="Phone number" />
+              </div>
+            </div>
+          </div>
+          <div class="field-group">
+            <div class="form-group">
+              <label for="message"
+                >Message <span class="label-required">(Required)</span></label
+              >
+              <textarea
+                rows="6"
+                id="message"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+          </div>
+        </div>
+
+        <p>Our <a href="#">privacy policy</a> applies.</p>
+        <div class="centered"><button type="submit">Submit</button></div>
+      </form>
     </section>
-
-    <section id="about-content">
-        <h1>O que nós fazemos diferente?</h1>  
-        <p>Por sermos experientes, confiáveis e focados em resultados, tivemos o privilégio de trabalhar com uma série de clientes fantásticos.</p>
-    </section>
-
-    </div>
-    
-</body>
-
-
+  </body>
 </html>
