@@ -1,29 +1,29 @@
-#main-content img {
-  width: 200%;
-  max-width: 800px;
-  display: block;
-  margin: 0 auto;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(0, 0, 0);
 }
 
-.content {
-  font-family: Arial, sans-serif;
+img {
+  width: 100%;
+}
+
+p {
+  color: white;
+}
+
+#main-content {
+  height: 100dvh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 #main-content h1 {
-  font-size: 48px;
-  color: #ff6b6b;
+  font-size: 32px;
   font-weight: 900;
   margin-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 #btn-leia-mais {
@@ -41,29 +41,26 @@
 
 #about-content {
   display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 #about-content h1 {
   font-size: 40px;
-  color: #ff6b6b;
   font-weight: 700;
-  margin-bottom: 50px;
-  margin-top: 270px;
 }
 
 #about-content p {
   font-size: 22px;
-  margin-bottom: 500px;
   max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
 }
 
-#nossos-valores h3 {
+h1,
+h3 {
   color: #ff6b6b;
 }
 
@@ -71,50 +68,7 @@
   color: white;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(0, 0, 0);
-  color: #fff;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  padding: 10px 20px;
-  color: white;
-}
-
-.button {
-  background-color: #555;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s;
-}
-
-.button:hover {
-  background-color: #777;
-}
-
-.logo {
-  height: 50px;
-  margin-right: 10px;
-}
-
-.right-images img {
-  height: 50px;
-  margin-left: 10px;
-}
-
-.center-content {
-  display: flex;
-  align-items: center;
-}
+/*formulario ----------------------------------------------------------------*/
 
 .contact-form {
   background-color: #ffffff;
@@ -181,13 +135,13 @@ button {
 }
 
 label {
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .label-required {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 12px;
-  color: rgb(199, 194, 194);
+  color: rgb(143, 143, 143);
 }
 
 textarea {
@@ -196,7 +150,8 @@ textarea {
 }
 
 a {
-  color: #00b7ff;
+  text-decoration: underline;
+  color: #111;
 }
 
 .form-group label {
@@ -212,6 +167,11 @@ a {
 }
 
 /* FORM GROUPS */
+.form-title {
+  color: #111;
+  font-weight: 800;
+}
+
 .field-group {
   display: flex;
   flex-direction: column;
@@ -230,16 +190,68 @@ a {
   flex-grow: 1;
 }
 
+.divider {
+  border-top: 0.5px solid #bbbbbbc0;
+  margin: 16px 0;
+  grid-column: span 2 / span 2;
+}
+
 @media screen and (min-width: 768px) {
   .field-group {
     flex-direction: row;
   }
+
+  img {
+    max-width: 500px;
+  }
+
+  #main-content img {
+    max-width: 700px;
+  }
+
+  #about-content {
+    margin-bottom: 128px;
+  }
+
+  #nossos-valores img {
+    width: 300px;
+    height: 200px;
+  }
+
+  #nossos-valores {
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 128px;
+  }
+
+  .nossos-valores-container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  .nossos-valores-texto {
+    max-width: 300px;
+  }
+
+  .contact-form {
+    margin-bottom: 64px;
+  }
 }
 
-/* CONTAINERS */
+.black-text {
+  color: #111;
+}
+
 .centered {
   display: flex;
   justify-content: center;
+}
+
+.link {
+  text-decoration: none;
 }
 
 footer {
