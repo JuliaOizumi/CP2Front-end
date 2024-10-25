@@ -6,45 +6,65 @@
     <meta name="keywords" content="HTML, CSS" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="cache-control" content="no-cache" />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Play Game</title>
   </head>
 
   <body>
-    <div class = "content">
-      <section id="main-content">
-          <h1>Vamos iniciar os Games</h1>
-          <img src="img/games1.jpg" alt="Imagem de games">
-          <br>
-          <button id="btn-leia-mais">Leia Mais</button>
-      </section>
-  
-      <section id="about-content">
-          <h1>O que nós fazemos diferente?</h1>  
-          <p>Por sermos experientes, confiáveis e focados em resultados, tivemos o privilégio de trabalhar com uma série de clientes fantásticos.</p>
-      </section>
-  
-      <section id="nossos-valores">
-        <div class="valor">
-          <img src="/img/a5.png" alt="Nossa História">
+    <section id="main-content">
+      <h1>Vamos iniciar os Games</h1>
+      <img src="img/games1.jpg" alt="Imagem de games" />
+      <a class="link" href="#about-content"
+        ><button id="btn-leia-mais">Leia Mais</button></a
+      >
+    </section>
+
+    <section id="about-content">
+      <h1>O que nós fazemos diferente?</h1>
+      <p>
+        Por sermos experientes, confiáveis e focados em resultados, tivemos o
+        privilégio de trabalhar com uma série de clientes fantásticos.
+      </p>
+    </section>
+
+    <section id="nossos-valores">
+      <div class="nossos-valores-container">
+        <img src="/img/a5.png" alt="Nossa História" />
+        <div class="nossos-valores-texto">
           <h3>Nossa História</h3>
-          <p>Texto sobre a nossa história...</p>
+          <p>
+            Como todas as grandes coisas, começamos pequenos. Pegamos algumas
+            mentes semelhantes com uma visão compartilhada - e corremos com ela.
+            Hoje, nos tornamos algo grande
+          </p>
         </div>
-        <div class="valor">
-          <img src="/img/a9.png" alt="Nossos Valores">
+        <hr class="divider" />
+      </div>
+
+      <div class="nossos-valores-container">
+        <img src="/img/a9.png" alt="Nossos Valores" />
+        <div class="nossos-valores-texto">
           <h3>Nossos Valores</h3>
-          <p>Texto sobre nossos valores...</p>
+          <p>
+            Por que contar conosco para entregar resultados? Porque nossa
+            empresa é mais do que apenas um negócio. Cada pessoa traz algo
+            diferente para equipe, mas há um conjunto básico de valores que
+            todos comparilhamos.
+          </p>
         </div>
-        <div class="valor">
-          <img src="/img/gamer.png" alt="Nossos Clientes">
+        <hr class="divider" />
+      </div>
+      <div class="nossos-valores-container">
+        <img src="/img/gamer.png" alt="Nossos Clientes" />
+        <div class="nossos-valores-texto">
           <h3>Nossos Clientes</h3>
           <p>Página Básica</p>
         </div>
-      </section>
-
       </div>
+    </section>
     <section class="contact-form">
-      <h1>Quer saber mais?</h1>
+      <h1 class="form-title">Quer saber mais?</h1>
       <form>
         <div class="field-set">
           <div class="field-group">
@@ -98,27 +118,27 @@
           </div>
         </div>
 
-        <p>Our <a href="#">privacy policy</a> applies.</p>
+        <p class="black-text">Our <a href="#">privacy policy</a> applies.</p>
         <div class="centered"><button type="submit">Submit</button></div>
       </form>
     </section>
     <footer>
       <div class="social-media">
-          <a href="https://facebook.com/playgames">
-            <img src="img/icones/facebook-16.png" alt="Facebook" />
-          </a>
+        <a href="https://facebook.com/playgames">
+          <img src="img/icones/facebook-16.png" alt="Facebook" />
+        </a>
         <a href="https://x.com/playgames">
           <img src="img/icones/twitter-x-16.png" alt="X" />
         </a>
       </div>
       <div class="footer-links">
-          <a href="#">Imprint</a>
-          <a href="#">Privacy Policy</a>
-          <a href="#">Cookie Settings</a>
-          <a href="#">Delivery Policy</a>
-          <a href="#">Withdrawal Policy</a>
-          <a href="#">Terms and Conditions</a>
+        <a href="#">Imprint</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Settings</a>
+        <a href="#">Delivery Policy</a>
+        <a href="#">Withdrawal Policy</a>
+        <a href="#">Terms and Conditions</a>
       </div>
-  </footer>
+    </footer>
   </body>
 </html>
