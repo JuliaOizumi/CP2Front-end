@@ -12,4 +12,4 @@ https://cp-2-front-end.vercel.app
 - Felipe Anselmo: 560661
 - João Gabriel Fuchs G: 559863
 - Julia Antonia Oizumi: 559303
-- Marcelo Coelho: 559778
+- Marcello Coelho: 559778
