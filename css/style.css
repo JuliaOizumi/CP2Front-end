@@ -1,53 +1,49 @@
 #main-content img {
-    width: 70%;
-    max-width: 800px;
-    display: block; 
-    margin: 0 auto; 
+  width: 70%;
+  max-width: 800px;
+  display: block;
+  margin: 0 auto;
 }
 
 .conteudo {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
-#main-content h1{
-    font-size: 48px; 
-    color: #ff6b6b; 
-    font-weight: 900; 
-    margin-bottom: 20px; 
-    
-    
+#main-content h1 {
+  font-size: 48px;
+  color: #ff6b6b;
+  font-weight: 900;
+  margin-bottom: 20px;
 }
 
 #btn-leia-mais {
-    margin: 20px auto 0;
-    padding: 15px 30px;
-    background-color: #ff6b6b;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 5px;
-    display: block; 
-    max-width: 200px; 
+  margin: 20px auto 0;
+  padding: 15px 30px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  display: block;
+  max-width: 200px;
 }
 
 #about-content {
-    margin: 15% auto 0;
+  margin: 15% auto 0;
 }
 
 #about-content h1 {
-    font-size: 40px; 
-    color: #ff6b6b; 
-    font-weight: 700; 
-    margin-bottom: 20px; 
+  font-size: 40px;
+  color: #ff6b6b;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
-body{
-  margin: 0;
-  padding: 0;
+
+body {
   font-family: Arial, sans-serif;
   background-color: #000;
   color: #fff;
-  text-align: center;
 }
 
 .contact-form {
