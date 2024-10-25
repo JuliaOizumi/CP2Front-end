@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="author" content="GrupoCP2-1TDSPB">
-    <meta name="keywords" content="HTML, CSS">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="cache-control" content="no-cache">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="GrupoCP2-1TDSPB" />
+    <meta name="keywords" content="HTML, CSS" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Play Game</title>
-</head>
+  </head>
 
-<body>
-        <section class="contact-form">
-            <h1>Quer saber mais?</h1>
-            <form>
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="Name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email address (Required)</label>
-                    <input type="email" id="email" placeholder="Email address" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">Phone number</label>
-                    <div class="phone-input">
+  <body>
+    <section class="contact-form">
+      <h1>Quer saber mais?</h1>
+      <form>
+        <div class="field-set">
+          <div class="field-group">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email address (Required)</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone number</label>
+              <div class="phone-input">
                 <select class="ddi-picker" name="ddi" id="ddi">
                   <option value="55">🇧🇷 &nbsp;&nbsp;&nbsp;+55</option>
                   <option value="54">🇦🇷 &nbsp;&nbsp;&nbsp;+54</option>
@@ -40,17 +46,24 @@
                 </select>
                 <input type="tel" id="phone" placeholder="Phone number" />
               </div>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message (Required)</label>
-                    <textarea id="message" placeholder="Message" required></textarea>
-                </div>
-                <p>Our <a href="#">privacy policy</a> applies.</p>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
-</body>
+            </div>
+          </div>
+          <div class="field-group">
+            <div class="form-group">
+              <label for="message">Message (Required)</label>
+              <textarea
+                rows="6"
+                id="message"
+                placeholder="Message"
+                required
+              ></textarea>
+            </div>
+          </div>
+        </div>
 
+        <p>Our <a href="#">privacy policy</a> applies.</p>
+        <div class="centered"><button type="submit">Submit</button></div>
+      </form>
+    </section>
+  </body>
 </html>
-

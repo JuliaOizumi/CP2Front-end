@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
@@ -10,7 +10,6 @@ body {
     background-color: #ffffff;
     color: #000000;
     padding: 10px;
-    width: 1100px;
 }
  
 .contact-form h1 {
@@ -22,34 +21,50 @@ body {
    
 }
  
-input, textarea {
+input, textarea, select {
     width: calc(100% - 20px);
     padding: 10px;
-    border: 1px solid #000000;
-    font-size: 14px;
+    border: 1px solid rgb(199, 194, 194);
+    box-shadow: inset 0.1em 0.1em rgb(238, 238, 238);
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.ddi-picker {
+    width: auto;
+    background-color: transparent;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../img/icones/MdiChevronDown.svg)  no-repeat right 60% center / 16px;
+}
+
+.ddi-picker .flag{
+    margin-left: 16px;
 }
  
 .phone-input {
     display: flex;
+    position: relative;
+    border: 1px solid rgb(199, 194, 194);
+    box-shadow: inset 0.1em 0.1em rgb(238, 238, 238);
     align-items: center;
+    border-radius: 5px;
 }
- 
-.phone-input span {
-    padding: 10px;
-    background-color: #aaaaaa;
+
+.phone-input * {
+    box-shadow: none;
+    border-radius: 0;
+    border: 0
 }
 
 .phone-input input {
-    border-radius: 0 5px 5px 0;
+    margin: 1px;
 }
- 
-textarea {
-    height: 50px;
-    resize: vertical;
-}
- 
+
 button {
-    width: 10%;
+    
     padding: 10px;
     background-color: #000000;
     color: #ffffff;
@@ -57,9 +72,51 @@ button {
     border-radius: 10px;
     font-size: 15px;
 }
+
+label {
+    font-weight: 200;
+}
+
+textarea {
+    font-family: inherit;
+    resize: vertical;
+}
+
+
  
 a {
     color: #00b7ff;
+}
+
+/* FORM GROUPS */
+.field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.field-set {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .field-group {
+        flex-direction: row;
+    }
+  }
+
+/* CONTAINERS */
+.centered {
+    display: flex;
+    justify-content: center;
 }
  
  
