@@ -33,7 +33,8 @@
         "sibiraj-s.vscode-scss-formatter",
         "bradlc.vscode-tailwindcss",
         "vscode-icons-team.vscode-icons",
-        "styled-components.vscode-styled-components"
+        "styled-components.vscode-styled-components",
+        "esbenp.prettier-vscode"
       ],
       "settings": {
         "git.repositoryScanMaxDepth": 5,
