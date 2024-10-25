@@ -5,8 +5,13 @@
   margin: 0 auto;
 }
 
-.conteudo {
+.content {
   font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
 }
 
 #main-content h1 {
@@ -14,6 +19,11 @@
   color: #ff6b6b;
   font-weight: 900;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;     
 }
 
 #btn-leia-mais {
@@ -30,14 +40,23 @@
 }
 
 #about-content {
-  margin: 15% auto 0;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;     
+  text-align: center;   
 }
 
 #about-content h1 {
   font-size: 40px;
   color: #ff6b6b;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  margin-top: 290px;
+}
+
+#about-content p {
+  font-size: 30px;
 }
 
 body {
